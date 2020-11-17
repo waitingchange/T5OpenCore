@@ -243,12 +243,38 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAAbGQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAw5HycAAAAAAAYAQSVIhNg6m+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAWMIQAAAaUiuAoHA4H0AwIDUAWMIQAAAaAAAA/gAzODc0WYAxNTZXRjYKAAAAAAAAQTGeABAAAAoBCiAgAGI=</data>
+				<key>device-id</key>
+				<data>GxkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 				<key>model</key>
-				<string>HD 530</string>
+				<string>Intel HD Graphics 530</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -863,7 +889,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -997,6 +1023,11 @@
 				<key>UIScale</key>
 				<data>Ag==</data>
 			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>rtc-blacklist</key>
+				<data></data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
@@ -1072,9 +1103,9 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02706300J9HWVPUE</string>
+			<string>C02617404J9HCF9JA</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1793</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>ROM</key>
@@ -1082,11 +1113,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro13,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T73ZFHV29</string>
+			<string>C02RM0MAGTFN</string>
 			<key>SystemUUID</key>
-			<string>A80337A4-2DBD-4F2F-8C62-06D04FFED6CB</string>
+			<string>F7FC0FB6-88D1-4074-AFB8-58A4FE654B60</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
